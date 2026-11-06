@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+
+    --color-medellin-night: #0f172a;   
+  --color-medellin-neon: #a855f7;    
+  --color-medellin-accent: #10b981;  
+
+  --font-display: "Montserrat", sans-serif;
+
+  --spacing-card-custom: 22rem;
+}
