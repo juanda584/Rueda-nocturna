@@ -30,3 +30,20 @@ Este comportamiento se debe al motor de compilación e inspección nativo de **T
 * El CLI escanea constantemente mi archivo `index.html` mientras programo (gracias al comando `--watch`).
 * Detecta qué clases escribí textualmente en las etiquetas.
 * Genera un archivo `output.css` **"limpio"**, inyectando única y exclusivamente las reglas de diseño que la página web está usando en ese instante.
+
+## 🎨 Paleta de Colores Personalizada (Configuración en @theme)
+
+Para el desarrollo del prototipo "Rueda Nocturna", se diseñó una identidad visual inspirada en el ambiente de Medellín en la noche, utilizando las nuevas variables de tema de **Tailwind CSS v4** dentro de `css/styles.css`:
+
+*   **Morado Medellín Neón (`--color-medellin-neon: #a855f7;`)**
+    *   *Uso:* Botón principal de acción, estados de foco (`focus:ring`), y sombras de resplandor.
+    *   *Propósito:* Funciona como el color de marca principal (punto focal) para simular luces de neón nocturnas.
+*   **Verde Medellín Acento (`--color-medellin-accent: #10b981;`)**
+    *   *Uso:* Texto de la etiqueta de campaña ("Nuevo · Jueves a sábado").
+    *   *Propósito:* Proporciona un contraste accesible sobre el fondo suave (`bg-emerald-100`) y resalta novedades importantes.
+*   **Amarillo Ámbar (`text-amber-500` - Nativo de Tailwind)**
+    *   *Uso:* Destacar caracteres específicos (el número **3** en "3 Rutas").
+    *   *Propósito:* Romper la monotonía del texto oscuro para capturar de inmediato la atención del usuario en los datos clave de la campaña.
+*   **Fondo y Textos Base (Gama de Slates y Grises)**
+    *   *Uso:* Contenedores principales y tipografías (`text-slate-900`, `text-slate-600`).
+    *   *Propósito:* Garantizar una lectura limpia, un contraste de alto nivel y una estética minimalista para la tarjeta física sobre la pantalla.
